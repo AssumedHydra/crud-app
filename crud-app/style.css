@@ -43,5 +43,27 @@ body {
   button:hover {
     background-color: #2b6cb0;
   }
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    background: #edf2f7;
+    padding: 0.75rem;
+    border: 1px solid #e2e8f0;
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  li button {
+    background: none;
+    border: none;
+    color: red;
+    font-weight: bold;
+    cursor: pointer;
+  }
   
 
